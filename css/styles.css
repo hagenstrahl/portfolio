@@ -1,0 +1,109 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+h1, h2, .logo {
+    color: #6380FF;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+nav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+    color: #6380FF;
+}
+
+nav a:hover {
+    background-color: #6380FF;
+    color: white;
+    text-decoration: none;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    width: 55%;
+}
+
+.headline-border {
+    padding: 50px;
+    margin: auto;
+}
+
+.headline {
+    position: relative;
+    left: 25%;
+    top: -25%;
+    width: 550px;
+}
+
+.logo {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        font-size: 70px;
+    }
+
+    .headline {
+        left: 30%;
+        top: -20%;
+        width: 400px;
+    }
+
+    .headline-border {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .headline {
+        left: 30%;
+        top: -20%;
+        width: 300px;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    img, .profile-picture {
+        width: 100%;
+    }
+
+    .headline {
+        left: 0;
+        top: -10%;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
