@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald|Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
@@ -23,126 +22,94 @@
 </head>
 <body>
 <header>
-    <nav>
-        <div class="container-fluid">
-            <div class="row bg-black">
-                <div class="col-lg-4">
-                    <a href="#about">Über Mich</a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="#references">Referenzen</a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="#contact">Kontakt</a>
-                </div>
-            </div>
-        </div>
-    </nav>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <img src="img/Profilbild.jpg" alt="profile picture" class="profile-picture">
-                <div class="headline headline-border bg-black">
-                    <h1>Hagen Strahl</h1>
+            <div class="col-sm-12">
+                <div class="float-left">
+                    <img src="img/udacity-logo.png" alt="udacity logo" class="logo">
                 </div>
+                <div class="float-right text-right">
+                    <h1>Hagen Strahl</h1>
+                    <p>
+                        Web Frontend Developer in Development
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="line"></div>
             </div>
         </div>
     </div>
 </header>
-<section id="about">
-    <article class="container-fluid">
+<main>
+    <section id="banner">
+        <article class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="img/1_iwPLQjyFYRTVeQ2cb4S9rA.png" alt="coding picture" class="banner">
+                </div>
+            </div>
+        </article>
+    </section>
+    <section id="featered-work">
+        <article class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Featured Work</h2>
+                </div>
+            </div>
+            <div class="row references-list text-center">
+                <div class="col-sm-4">
+                    <img src="img/memory_game_adults_emoji_2.jpg" alt="memory game">
+                    <h3>Memory Game</h3>
+                    <p>
+                        <a href="https://github.com/fakelink1">https://github.com/fakelink1</a>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/pacman.jpg" alt="arcade game clone">
+                    <h3>Arcade Game Clone</h3>
+                    <p>
+                        <a href="https://github.com/fakelink2">https://github.com/fakelink2</a>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/Get-Better-Reviews-660x494.png" alt="restaurant review web app">
+                    <h3>Restaurant Review Web App</h3>
+                    <p>
+                        <a href="https://github.com/fakelink3">https://github.com/fakelink3</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="line"></div>
+                </div>
+            </div>
+        </article>
+    </section>
+</main>
+<footer>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-4 headline-border text-center bg-black">
-                <h2>Web Frontend Developer in der Entwicklung</h2>
-            </div>
-            <div class="col-md-6"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                </p>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h3>Schau doch mal hier rein...</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-3 text-center">
-                <a href="https://www.linkedin.com/in/hagen-strahl-25239a190/" target="_blank"><i class="fab fa-linkedin logo"></i></a>
-            </div>
-            <div class="col-md-3 text-center">
-                <a href="https://github.com/hagenstrahl" target="_blank"><i class="fab fa-github logo"></i></a>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-    </article>
-</section>
-<section id="references">
-    <article class="container-fluid">
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-4 headline-border text-center bg-black">
-                <h2>Referenzen</h2>
-            </div>
-            <div class="col-md-6"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 text-center">
-                <img src="img/Profilbild.jpg" alt="profile picture" class="profile-picture">
-            </div>
-            <div class="col-md-3">
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                    invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua.
-                </p>
-            </div>
-            <div class="col-md-3 text-center">
-                <img src="img/Profilbild.jpg" alt="profile picture" class="profile-picture">
-            </div>
-            <div class="col-md-3">
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                    invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua.
-                </p>
+            <div class="col-sm-12 text-center">
+                <h2>Kontakt</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 text-center">
-                <img src="img/Profilbild.jpg" alt="profile picture" class="profile-picture">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3 text-center">
+                <a href="https://www.linkedin.com/in/hagen-strahl-25239a190/"><i class="fab fa-linkedin"></i></a>
             </div>
-            <div class="col-md-3">
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                    invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua.
-                </p>
+            <div class="col-sm-3 text-center">
+                <a href="https://github.com/hagenstrahl"><i class="fab fa-github"></i></a>
             </div>
-            <div class="col-md-3 text-center">
-                <img src="img/Profilbild.jpg" alt="profile picture" class="profile-picture">
-            </div>
-            <div class="col-md-3">
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                    invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua.
-                </p>
-            </div>
+            <div class="col-sm-3"></div>
         </div>
-    </article>
-</section>
+    </div>
+</footer>
 </body>
 </html>
